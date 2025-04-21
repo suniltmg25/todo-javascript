@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Popup Content -->
+    <div class="main-div" id="main-div">
+        <div class="x-icon" id="close">
+            <i class="fa-regular fa-x"></i>
+        </div>
+        <div class="div">
+            <label for="text">Todo List</label><br><br>
+            <input type="text" id="text" placeholder="New Task"/>
+    </div>
+        <div class="submit">
+            <input type="submit" name="submit" id="submit">
+        </div>
+    </div>
+
+
+    <!-- Content -->
+    <div class="second-div" id="second-div">
+    <div class="sub-bg">
+        <i class="fa-solid fa-bars"></i>
+        <h1>Todo Lists</h1>
+        </div>
+    <div class="main-bg">
+        <ul style="list-style-type: circle;">
+            <li>Style Web page</li>
+            <li>Check Color Contrast</li>
+            <li>Manage Templetes</li>
+            <li>Create Portfolio</li>
+            <li id="list"></li>
+            <li id="list"></li>
+        </ul>
+    </div>
+    <div class="button">
+        <button id="btn">New Task</button>
+    </div>
+    <div class="icon">
+        <i class="fa-solid fa-plus" id="icon"></i>
+    </div>
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>
+
+<!-- Need To Learn Tonight -->
+ <!-- Callback Function -->
+<!-- Window.addeventlistener -->/
+<!-- Load event -->/
+ <!-- Location.reload(); -->/
+  <!-- Local Storage(GetItem, SetItem) -->/

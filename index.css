@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e3e9ff;
+}
+.sub-bg{
+    margin-top: 24vh;
+    margin-left: 80vh;
+    /* padding-top: 10vh; */
+    /* margin: auto; */
+    height: 60px;
+    width: 25%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    background-color: rgb(55, 1, 72);
+}
+.sub-bg h1{
+    font-size: 25px;
+    margin-left: 23vh;
+    margin-top: -25px;
+}
+.sub-bg i{
+    margin-left: 10vh;
+    margin-top: 15px;
+    font-size: 26px;
+}
+.main-bg{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 43vh;
+    margin-top: 3vh;
+    margin-left: 36.5rem;
+    box-shadow: 0 0 10px gray;
+}
+.main-bg ul{
+    color: rgb(42, 42, 42);
+    font-family: "Playfair Display", serif;
+    padding-top: 9.5vh;
+    padding-left: 10vh;
+    line-height: 5vh;
+    font-size: 3vh;
+}
+.button{
+    padding-left: 96vh;
+    margin-top: -25px;
+    /* background-color: #af7eea; */
+}
+.button button{
+    padding-left: 26px;
+    background-color: rgb(55, 1, 72);
+    border-radius: 20px;
+    font-size: 16.5px;
+    border: none;
+    color: white;
+    width: 18%;
+    height: 6vh;
+}
+.icon{
+    margin-left: 99.5vh;
+    margin-top: -30px;
+    color: white;
+    font-weight: bolder;
+}
+.main-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    box-shadow: 0 0 10px gray;
+    border: 1px solid  rgb(241, 241, 241);
+    background-color: rgb(248, 248, 248);
+    width: 25%;
+    height: 50vh;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 24.5vh;
+}
+label{
+    color: rgb(54, 2, 54);
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    margin-left: -5vh;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    /* padding-top: 10vh; */
+    /* margin-top: 10vh; */
+    /* padding-left: 30px; */
+}
+.div{
+    margin-left: -40vh;
+    margin-top: 12vh;
+}
+.div input{
+    width: 200%;
+    height: 8vh;
+    /* margin-top: 0.5vh; */
+    margin-left: -32px;
+    padding-left: 10px;
+}
+.submit{
+    margin-top: 30vh;
+    margin-left: -23.5vh;
+}
+.submit input{
+    color:white;
+    background-color: rgb(55, 1, 72);
+    border: none;
+    width: 200%;
+    height: 5vh;
+    border-radius: 10px;
+}
+.x-icon i{
+    color: black;
+    font-weight: 900;
+}
+.x-icon{
+    margin-top: 2.5vh;
+    margin-left: 48vh;
+}
+.second-div{
+    display: none;
+}

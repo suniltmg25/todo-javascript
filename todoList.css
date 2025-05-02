@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #cbd6ff;
+    /* font-family: serif; */
+}
+.main-div{
+    width: 500px;
+    color: rgb(65, 4, 65);
+    font-weight: 500;
+    background: rgb(255, 249, 249);
+    margin: 100px auto 0 auto;
+    padding-left: 35px;
+    padding-top: 6vh;
+    border-radius: 10px;
+    /* box-shadow: 0 10px 20px rgba(225, 26, 26, 0.22); */
+}
+.input-area{
+    padding-top: 2vh;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.input-area input:hover{
+    border: 1px solid rgb(1, 82, 1);
+}
+.input-area input{
+    /* margin-top: 10vh; */
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    height: 7vh;
+    width: 350px;
+}
+.input-area button{
+    /* word-spacing: 1px; */
+    letter-spacing: 0.3px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background:rgb(65, 4, 65);
+    width: 12vh;
+    border-radius: 10px;
+}
+.result-area .sub-area{
+    /* font-weight: bold; */
+    padding-top:3vh;
+    font-size: 17px;
+    /* margin-top: 10vh; */
+    padding-bottom: 3vh;
+    padding-left: 50px;
+    font-size: 17px;
+    color: rgb(52, 1, 52);
+    display: flex;
+    gap: 10px;
+}
+.result-area .sub-area p{
+    flex:0.8;
+}
+.result-area .sub-area i{
+    color: gray;
+}
+.complete p {
+    text-decoration: line-through;
+    color: #11b375;
+}
+/* .progress {
+    width: 60px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 50px;
+} */
+/* .complete .progress {
+    background: #11b375;
+    border: 1px solid #11b375;
+} */
+ .MSG{
+    /* margin-top: 10vh; */
+    /* font-weight: bold; */
+    font-size: 17px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 50px;
+ }
+.fa-solid fa-xmark:hover{
+    font-size: 20px;
+}
+#Icon{
+    display: block;
+}
